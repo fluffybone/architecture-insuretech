@@ -71,3 +71,18 @@ Minikube — это инструмент, который позволяет за
 
 #### Перейте на http://localhost:8089/
 #### запустить minikube dashboard
+
+
+
+### Удаление
+
+# 1. Удалить Horizontal Pod Autoscaler
+`minikube kubectl -- delete hpa scaletest-app-hpa`
+
+# 2. Удалить Service
+`minikube kubectl -- delete service scaletest-app-service`
+
+# 3. Удалить Deployment ( автоматически удалит все запущенные поды)
+`minikube kubectl -- delete deployment scaletest-app-deployment`
+
+`minikube stop`
