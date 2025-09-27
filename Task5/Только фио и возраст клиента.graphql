@@ -1,0 +1,7 @@
+
+query {
+    getClient(id: "1234") {
+        name
+        age
+    }
+}

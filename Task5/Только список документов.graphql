@@ -1,0 +1,4 @@
+
+query {
+    getClient(id: "1234")  { documents { type issueDate } } 
+}
