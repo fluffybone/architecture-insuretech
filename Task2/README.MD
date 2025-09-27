@@ -69,3 +69,5 @@ Minikube — это инструмент, который позволяет за
 ## Установка Locust (`pip install locust`)
 [Тест](Task2\locustfile.py)
 
+#### Перейте на http://localhost:8089/
+#### запустить minikube dashboard
